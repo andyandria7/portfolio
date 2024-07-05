@@ -1,5 +1,5 @@
 import { Col, Row } from "react-bootstrap";
-import { SiVisualstudiocode, SiEclipseide, SiAnaconda, SiAndroidstudio, SiAdobephotoshop, SiKrita, SiLaragon, SiMysql } from "react-icons/si";
+import { SiVisualstudiocode, SiEclipseide, SiAnaconda, SiAndroidstudio, SiAdobephotoshop, SiKrita, SiLaragon, SiMysql, SiFigma } from "react-icons/si";
 
 function Tools() {
     return (
@@ -27,6 +27,9 @@ function Tools() {
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <SiKrita />
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiFigma />
             </Col>
         </Row>
     )

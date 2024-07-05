@@ -1,21 +1,22 @@
-import Typewriter from "typewriter-effect";
+  import Typewriter from "typewriter-effect";
 
-function Type() {
-  return (
-    <Typewriter
-      options={{
-        strings: [
-          "Developper web",
-          "Freelancer",
-          "Developper Full Stack",
-          "React Laravel",
-        ],
-        autoStart: true,
-        loop: true,
-        deleteSpeed: 50,
-      }}
-    />
-  );
-}
+  function Type() {
+    return (
+      <Typewriter
+        options={{
+          strings: [
+            "Développeur web",
+            "Freelanceur",
+            "Developpeur Full Stack",
+            "React Laravel",
+          ],
+          autoStart: true,
+          loop: true,
+          deleteSpeed: 10,
+          delay: 20
+        }}
+      />
+    );
+  }
 
-export default Type;
+  export default Type;

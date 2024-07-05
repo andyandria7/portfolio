@@ -25,12 +25,12 @@ function Skillset() {
         if (!isFlipped) {
             setIsFlipped(true);
             setTimeout(() => {
-                setLaravel(50);
-                setReact(40);
-                setSymfony(30);
+                setLaravel(75);
+                setReact(50);
+                setSymfony(40);
                 setBootstrap(60);
-                setTailwindcss(40);
-                setSass(50);
+                setTailwindcss(80);
+                setSass(55);
                 setPhp(40);
                 setJs(40);
                 setGit(40);
