@@ -15,7 +15,7 @@ Bienvenue sur le dépôt de mon portfolio.
 
 Cliquez sur le bouton ci-dessous pour voir le site en ligne.
 
-[![Demo](https://img.shields.io/badge/Demo-Visit%20Site-brightgreen)](https://andyandria.io/portfolio)
+[![Demo](https://img.shields.io/badge/Demo-Visit%20Site-brightgreen)](https://andyandria7.github.io/portfolio)
 
 ## Installation
 
