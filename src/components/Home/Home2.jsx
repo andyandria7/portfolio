@@ -76,7 +76,7 @@ function Home2() {
               
             </ul>
             <p>
-              N'hésitez pas à vous  <span className="purple">connect </span> avec moi
+              N'hésitez pas à me  <span className="purple">contacter  </span>
             </p>
           </Col>
         </Row>

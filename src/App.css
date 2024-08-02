@@ -289,12 +289,22 @@ button:focus {
 .home-section {
     position: relative;
     z-index: -1;
-    background-image: var(--image-gradient), url(./assets/img/home-bg.jpg);
+    /* background-image: var(--image-gradient), url(./assets/img/home-bg.jpg); */
     background-position: top center;
     background-repeat: no-repeat;
     padding-bottom: 30px !important;
     padding-top: 30px !important;
 }
+
+.video-background {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    filter: brightness(25%);
+    min-width: 100%;
+    min-height: 30%;
+    z-index: -1;
+  }
 
 .home-content {
     padding: 9rem 0 2rem !important;

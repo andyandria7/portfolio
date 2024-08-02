@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../assets/img/about.png";
 import Home2 from "./Home2";
 import Type from "./Type";
+import video from "../../assets/img/Colorful Matrix Code Live Wallpaper.mp4";
 // import Particle from "../Particle";
 // import Home2 from "./Home2";
 // import Type from "./Type";
@@ -10,6 +11,9 @@ function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
+      <video autoPlay muted loop id="myVideo" className="video-background"
+            src={video} type="video/mp4">
+        </video>
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
