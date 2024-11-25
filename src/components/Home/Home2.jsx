@@ -21,7 +21,7 @@ function Home2() {
               <br />
               <br />Ma spécialité réside dans l'utilisation de technologies modernes telles que
               <i>
-                <b className="purple"> React.js pour le frontend et Laravel pour le backend. </b>
+                <b className="purple"> Vuejs pour le frontend et Laravel pour le backend. </b>
               </i>
               <br />
               <br />

@@ -8,7 +8,7 @@
             "Développeur web",
             "Freelanceur",
             "Developpeur Full Stack",
-            "React Laravel",
+            "Vuejs et Laravel",
           ],
           autoStart: true,
           loop: true,

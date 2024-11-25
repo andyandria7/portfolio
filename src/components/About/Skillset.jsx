@@ -1,6 +1,6 @@
 import { Col, Row } from "react-bootstrap";
 import { DiGit, DiJava, DiJavascript1, DiPython, DiReact } from "react-icons/di";
-import { FaBootstrap, FaLaravel, FaSass, FaSymfony } from "react-icons/fa";
+import { FaBootstrap, FaLaravel, FaSass, FaSymfony, FaVuejs  } from "react-icons/fa";
 import { SiPostgresql, SiTailwindcss, SiCsharp } from "react-icons/si";
 import { Flat } from '@alptugidin/react-circular-progress-bar';
 import ReactCardFlip from 'react-card-flip';
@@ -9,6 +9,7 @@ import { useState } from "react";
 function Skillset() {
     const [laravel, setLaravel] = useState(0);
     const [react, setReact] = useState(0);
+    const [vuejs, setVuejs] = useState(0);
     const [symfony, setSymfony] = useState(0);
     const [bootstrap, setBootstrap] = useState(0);
     const [tailwindcss, setTailwindcss] = useState(0);
@@ -26,7 +27,8 @@ function Skillset() {
             setIsFlipped(true);
             setTimeout(() => {
                 setLaravel(75);
-                setReact(50);
+                setReact(40);
+                setVuejs(55);
                 setSymfony(40);
                 setBootstrap(60);
                 setTailwindcss(80);
@@ -91,6 +93,38 @@ function Skillset() {
                                     alignItems: 'center',
                                     fontSize: '1rem',
                                     color: '#fff',
+                                }}
+                            />
+                        </div>
+                    </div>
+
+                </ReactCardFlip>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons pointer" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} isFlipped={isFlipped}>
+
+                <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
+                    <div className="card bg-transparent  text-white d-flex justify-content-center align-items-center text-center " style={{ height: '104px' }}>
+                        <FaVuejs />
+                    </div>
+                    <div className="card " style={{ height: '6.5rem' }}>
+                        <div className="circle" style={{
+                            width: '6rem',
+                            marginTop: '-9px',
+                            marginLeft: '34px'
+                        }}>
+                            <Flat
+                                progress={vuejs}
+                                text='ReactJs'
+                                sx={{
+                                    strokeColor: '#700c86',
+                                    barWidth: 5,
+                                    height: '5rem',
+                                    width: '100%',
+                                    display: 'flex',
+                                    justifyContent: 'center',
+                                    alignItems: 'center',
+                                    fontSize: '1rem',
+                                    color: '#fff', // Change text color to white
                                 }}
                             />
                         </div>
