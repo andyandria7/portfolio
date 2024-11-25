@@ -12,7 +12,7 @@ function AboutCard() {
             <br />
             En 2021, j'ai suivi une <span className="purple">formation en développement web chez NirInfo</span> à Ampandrana, ainsi qu'un <span className="purple">stage en tant que développeur junior à l'Association Infinity Creative</span>, où j'ai participé à un projet de <span className="purple">développement de jeux en utilisant C# avec les outils Unity et Krita.</span>
             <br />
-            En 2022, j'ai réalisé un  <span className="purple">stage chez Hulia à Tsiadana</span>, contribuant activement au <span className="purple">développement d'un site web avec Laravel</span>. 
+            En 2022, j'ai réalisé un  <span className="purple">stage chez Hulsia à Tsiadana</span>, contribuant activement au <span className="purple">développement d'un site web avec Laravel</span>. 
             <br />
             En 2019, j'ai obtenu mon Baccalauréat série Technique à l'ESCA, Antanimena, ainsi que mon diplôme de BEP à Ampefiloha.
             <br />
