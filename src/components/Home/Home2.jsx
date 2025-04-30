@@ -19,13 +19,17 @@ function Home2() {
             <p className="home-about-body">
               Bonjour, je suis un <b className="purple">développeur web </b> passionné par l'innovation et la création des technologies numériques.
               <br />
-              <br />Ma spécialité réside dans l'utilisation de technologies modernes telles que
+              <br />
+              Ma spécialité réside dans l'utilisation de technologies modernes telles que
               <i>
                 <b className="purple"> Vuejs pour le frontend et Laravel pour le backend. </b>
               </i>
               <br />
               <br />
               J'ai acquis mes compétences lors de ma formation chez HOPES Formation, une expérience qui a été cruciale dans mon parcours professionnel.
+              <br />
+              <br />
+              Cette année, j’ai également enrichi mon savoir-faire en suivant une formation chez Nir'Info, où j’ai appris le <b className="purple">développement d’applications mobiles en Java, ainsi que les bases du langage Java.</b>
               <br />
               <br />
               Je suis constamment <b className="purple">en quête de défis stimulants et de nouvelles connaissances</b> pour continuer à évoluer.

@@ -27,7 +27,7 @@ function Skillset() {
             setIsFlipped(true);
             setTimeout(() => {
                 setLaravel(75);
-                setReact(40);
+                setReact(35);
                 setVuejs(55);
                 setSymfony(40);
                 setBootstrap(60);
@@ -37,7 +37,7 @@ function Skillset() {
                 setJs(40);
                 setGit(40);
                 setPyton(15);
-                setJava(20);
+                setJava(40);
                 setCsharpe(20);
             }, 500);
         }
@@ -114,7 +114,7 @@ function Skillset() {
                         }}>
                             <Flat
                                 progress={vuejs}
-                                text='ReactJs'
+                                text='VueJs'
                                 sx={{
                                     strokeColor: '#700c86',
                                     barWidth: 5,
@@ -134,19 +134,21 @@ function Skillset() {
             </Col>
             <Col xs={4} md={2} className="tech-icons pointer" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} isFlipped={isFlipped}>
 
+                {/* flip */}
                 <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
                     <div className="card bg-transparent  text-white d-flex justify-content-center align-items-center text-center " style={{ height: '104px' }}>
-                        <DiReact />
+                        <DiJava />
+
                     </div>
-                    <div className="card " style={{ height: '6.5rem' }}>
+                    <div className="card " style={{ height: '6.5rem' }} >
                         <div className="circle" style={{
                             width: '6rem',
                             marginTop: '-9px',
                             marginLeft: '34px'
                         }}>
                             <Flat
-                                progress={react}
-                                text='ReactJs'
+                                progress={java}
+                                text='Java'
                                 sx={{
                                     strokeColor: '#700c86',
                                     barWidth: 5,
@@ -439,21 +441,19 @@ function Skillset() {
             </Col>
             <Col xs={4} md={2} className="tech-icons pointer" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} isFlipped={isFlipped}>
 
-                {/* flip */}
                 <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
                     <div className="card bg-transparent  text-white d-flex justify-content-center align-items-center text-center " style={{ height: '104px' }}>
-                        <DiJava />
-
+                        <DiReact />
                     </div>
-                    <div className="card " style={{ height: '6.5rem' }} >
+                    <div className="card " style={{ height: '6.5rem' }}>
                         <div className="circle" style={{
                             width: '6rem',
                             marginTop: '-9px',
                             marginLeft: '34px'
                         }}>
                             <Flat
-                                progress={java}
-                                text='Java'
+                                progress={react}
+                                text='ReactJs'
                                 sx={{
                                     strokeColor: '#700c86',
                                     barWidth: 5,
@@ -471,6 +471,7 @@ function Skillset() {
 
                 </ReactCardFlip>
             </Col>
+            
             <Col xs={4} md={2} className="tech-icons pointer" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} isFlipped={isFlipped}>
 
                 {/* flip */}

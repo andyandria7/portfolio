@@ -8,6 +8,7 @@
             "Développeur web",
             "Freelanceur",
             "Developpeur Full Stack",
+            "Java ",
             "Vuejs et Laravel",
           ],
           autoStart: true,
