@@ -31,78 +31,7 @@ function Projects() {
                     Mes Récent <strong className="purple">Projet     </strong>
                 </h1>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-                    {/* <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={voyage}
-                            isBlog={false}
-                            title="voyage"
-                            ghLink="https://github.com/andyandria7"
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={bus}
-                            isBlog={false}
-                            title="bus"
-                            ghLink="https://github.com/andyandria7"
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={madarail}
-                            isBlog={false}
-                            title="madarail"
-                            ghLink="https://github.com/andyandria7"
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={menu}
-                            isBlog={false}
-                            title="menu"
-                            ghLink="https://github.com/andyandria7"
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={car}
-                            isBlog={false}
-                            title="car"
-                            ghLink="https://github.com/andyandria7"
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={auto}
-                            isBlog={false}
-                            title="auto"
-                            ghLink="https://github.com/andyandria7"
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={animationscroll}
-                            isBlog={false}
-                            title="animationscroll"
-                            ghLink="https://github.com/andyandria7"
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={clippath}
-                            isBlog={false}
-                            title="clippath"
-                            ghLink="https://github.com/andyandria7"
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={facebook}
-                            isBlog={false}
-                            title="facebook"
-                            ghLink="https://github.com/andyandria7"
-                        />
-                    </Col> */}
+                    
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={vente}

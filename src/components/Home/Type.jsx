@@ -5,11 +5,11 @@
       <Typewriter
         options={{
           strings: [
-            "Développeur web",
-            "Freelanceur",
+            "Développeur web & mobile",
             "Developpeur Full Stack",
-            "Java ",
-            "Vuejs et Laravel",
+            "Laravel, CodeIgniter",
+            "VueJs, ReactJs",
+            "React Native"
           ],
           autoStart: true,
           loop: true,
