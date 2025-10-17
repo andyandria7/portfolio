@@ -180,7 +180,7 @@ function Skillset() {
                         }}>
                             <Flat
                                 progress={CodeIgniter}
-                                text='VueJs'
+                                text='CodeIgniter'
                                 sx={{
                                     strokeColor: '#700c86',
                                     barWidth: 5,
