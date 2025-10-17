@@ -13,9 +13,13 @@ Bienvenue sur le dépôt de mon portfolio.
 
 ## Demo
 
-Cliquez sur le bouton ci-dessous pour voir le site en ligne. https://andyandria7.github.io/portfolio
+Cliquez sur le bouton ci-dessous pour voir le site en ligne. https://andyandria.vercel.app/
 
-[![Demo](https://img.shields.io/badge/Demo-Visit%20Site-brightgreen)](https://andyandria7.github.io/portfolio)
+[![Visiter le site](https://img.shields.io/badge/Mon_Portfolio-%2300C7B7.svg?style=for-the-badge&logo=react&logoColor=white)](https://andyandria.vercel.app/)
+
+
+
+
 
 ## Installation
 
